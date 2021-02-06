@@ -1,0 +1,375 @@
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.msg{
+    font-family: 'Roboto','narkisblock','Helvetica Neue',Helvetica,Arial,sans-serif;    
+    font-size: 1.4rem;      
+    text-align: center;  
+    background: #000000;
+    color: #ffffff;   
+}
+
+.header .user{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+
+.sign-in{
+    border: 0px;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: auto;
+}
+
+.cart{
+    margin-right: 15px;
+}
+
+.cart a{
+    color: black;
+    font-size: 20px;
+}
+
+.search{
+    margin-right: 15px;
+}
+.search a{
+    color: black;
+    font-size: 20px;
+}
+
+
+.logo{
+    display: flex;
+    color: #800080;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    font-size: 45px;
+    letter-spacing: 1.5px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+.sections{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 120px;
+    font-size: 24px;   
+}
+.skate:hover,
+.tshirt:hover,
+.pants:hover,
+.shoes:hover,
+.acc:hover{
+    font-size: 30px;
+    transition: ease 1s;
+}
+
+.slide-container{
+    width: 1024px;
+    height: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.image-container{
+    width: 4096px;
+    height: 1024px;
+    position: relative;
+    transition: ease 2s;
+    -webkit-transition: ease 2s;
+    -moz-transition: ease 2s;
+    -o-transition: ease 2s;
+}
+.slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container{
+    top: -20px;
+    position: relative;
+}
+.slider-button{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+#slider-image-1:target ~ .image-container{
+    left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+    left: -1024px;
+}
+#slider-image-3:target ~ .image-container{
+    left: -2048px;
+}
+#slider-image-4:target ~ .image-container{
+    left: -3072px;
+}
+
+.main-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.best-sellers{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+
+.enjoi{
+    text-align: center;   
+    width: 400px;
+    height: 400px;
+
+}
+.real{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+.santa-cruz{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+.flip{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+
+.main-mid-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.santa_grip{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+
+}
+
+.spitfire_wheels{
+    text-align: center;
+    width: 400px;
+    height: 400px; 
+}
+
+.shake_junt{
+    text-align: center;
+    width: 400px;
+    height: 400px; 
+}
+
+.baker{
+    text-align: center;
+    width: 400px;
+    height: 400px; 
+}
+
+.main-down-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.tool{
+    text-align: center;
+    width: 400px;
+    height: 400px; 
+}
+.bones{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+.thrasher{
+    text-align: center;
+    width: 400px;
+    height: 400px; 
+}
+.flip_wheels{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+.main img{
+    margin-top: 45px;
+}
+.product-text{
+    margin-top: 10px;
+    font-weight: 700;
+    
+}
+
+.price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    border: 0px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer{
+    width: auto;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    margin-left: 30px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.inner-footer{
+    display: block;
+    margin: 0 auto;
+    width: 1300px;
+    height: 100%;
+}
+
+.inner-footer .email-container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+    
+}
+.mail {
+    margin: 0 0 5px;
+    padding: 10px;
+    background: none;
+    border: 1px solid #eee;
+    border-color: #e5e5e5;
+    color: #000;
+    font-size: 17px;
+    padding-right: 40px;
+
+
+}
+
+form i{
+    position: absolute;
+    font-size: 30px;
+ 
+    
+}
+
+.inner-footer .footer-third{ 
+    margin-right: 60px;
+    float: left;
+    height: 100%;
+}
+.inner-footer .footer-third:last-child{
+    margin-right: 0;
+}
+.inner-footer .footer-third h1{
+    font-family: Arial;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inner-footer .footer-third a{
+    font-family: Arial;
+
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.inner-footer .footer-third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 10px;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .header{
+        width: 1024px;
+    }
+    
+    .logo{
+        text-align: center;
+        width: 1024px;
+    }
+
+    .sections {
+        width: 1024px;
+    }
+
+    .slide-container{
+        width: 1024px;
+    }
+
+    .best-sellers{
+        width: 1024px;
+    }
+
+    .main-product,
+    .main-mid-product,
+    .main-down-product{
+        width: 1024px;
+    }
+
+    .footer{
+        width: 1024px;
+    }
+    
+    .footer-third{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
